@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="mapping the register route">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="output old session data - register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +166,7 @@
       <workItem from="1608990758154" duration="37000" />
       <workItem from="1608990797586" duration="5457000" />
       <workItem from="1609177810389" duration="3199000" />
-      <workItem from="1609271735527" duration="2078000" />
+      <workItem from="1609271735527" duration="5365000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -215,7 +217,35 @@
       <option name="project" value="LOCAL" />
       <updated>1609273259900</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="register form">
+      <created>1609273826375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609273826375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="register form validation">
+      <created>1609275513091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609275513091</updated>
+    </task>
+    <task id="LOCAL-00010" summary="register form errors handling">
+      <created>1609275936745</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609275936745</updated>
+    </task>
+    <task id="LOCAL-00011" summary="output old session data - register">
+      <created>1609276411667</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609276411667</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +275,10 @@
     <MESSAGE value="add_username_to_users_table migration" />
     <MESSAGE value="RegisterController, register view &amp; route" />
     <MESSAGE value="mapping the register route" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapping the register route" />
+    <MESSAGE value="register form" />
+    <MESSAGE value="register form validation" />
+    <MESSAGE value="register form errors handling" />
+    <MESSAGE value="output old session data - register" />
+    <option name="LAST_COMMIT_MESSAGE" value="output old session data - register" />
   </component>
 </project>
