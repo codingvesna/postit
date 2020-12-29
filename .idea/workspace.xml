@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="styling the layout">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="add_username_to_users_table migration">
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +164,8 @@
       <updated>1608990749533</updated>
       <workItem from="1608990758154" duration="37000" />
       <workItem from="1608990797586" duration="5457000" />
-      <workItem from="1609177810389" duration="1859000" />
+      <workItem from="1609177810389" duration="3199000" />
+      <workItem from="1609271735527" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -192,11 +195,30 @@
       <option name="project" value="LOCAL" />
       <updated>1609096863035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add_username_to_users_table migration">
+      <created>1609181034596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609181034596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
@@ -207,6 +229,7 @@
     <MESSAGE value="readme update" />
     <MESSAGE value="posts route, app layout, deleted welcome view" />
     <MESSAGE value="styling the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling the layout" />
+    <MESSAGE value="add_username_to_users_table migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_username_to_users_table migration" />
   </component>
 </project>
