@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="RegisterController, register view &amp; route">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="mapping the register route">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,7 @@
       <workItem from="1608990758154" duration="37000" />
       <workItem from="1608990797586" duration="5457000" />
       <workItem from="1609177810389" duration="3199000" />
-      <workItem from="1609271735527" duration="1360000" />
+      <workItem from="1609271735527" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609272822082</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mapping the register route">
+      <created>1609273259900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609273259900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +244,7 @@
     <MESSAGE value="styling the layout" />
     <MESSAGE value="add_username_to_users_table migration" />
     <MESSAGE value="RegisterController, register view &amp; route" />
-    <option name="LAST_COMMIT_MESSAGE" value="RegisterController, register view &amp; route" />
+    <MESSAGE value="mapping the register route" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapping the register route" />
   </component>
 </project>
