@@ -19,7 +19,7 @@
         <ul class="flex items-center">
             <li><a href="#" class="p-3"> Vesna Milovanovic</a></li>
             <li><a href="#" class="p-3"> Log In</a></li>
-            <li><a href="#" class="p-3"> Register</a></li>
+            <li><a href="{{ route('register') }}" class="p-3"> Register</a></li>
             <li><a href="#" class="p-3"> Logout</a></li>
         </ul>
     </nav>
