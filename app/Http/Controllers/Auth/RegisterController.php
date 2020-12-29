@@ -14,8 +14,8 @@ class RegisterController extends Controller
     public function store(Request $request) {
         // dd('abc');
         // dd($request);
-        //dd($request->get('email'));
-        //dd($request->email);
+        // dd($request->get('email'));
+        // dd($request->email);
 
         // validation
             $this->validate($request, [
