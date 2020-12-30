@@ -20,14 +20,14 @@ class RegisterController extends Controller
                 'email' => 'required|email|max:255',
                 'password' => 'required|confirmed'
             ]);
-        User::create([
-            'name' => $request->name,
-            'username' => $request->username,
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-        ]);
+            User::create([
+                'name' => $request->name,
+                'username' => $request->username,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+            ]);
 
-        return redirect()->route('dashboard');
+            return redirect()->route('dashboard');
 
     }
 }
