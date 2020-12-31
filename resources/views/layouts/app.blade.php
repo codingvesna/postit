@@ -20,7 +20,12 @@
 
             @auth
                 <li><a href="#" class="p-3"> Vesna Milovanovic</a></li>
-                <li><a href="{{ route('logout') }}" class="p-3"> Logout</a></li>
+                <li>
+                    <form action="{{ route('logout') }}" method="post" class="inline p-3">
+                        @csrf
+                        <button type="submit"> Logout</button>
+                    </form>
+                </li>
             @endauth
             @guest
                 <li><a href="{{ route('register') }}" class="p-3"> Register</a></li>
