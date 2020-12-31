@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="dashboard view, DashboardController &amp;  route">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="home view &amp; route, logout user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,8 @@
       <workItem from="1608990797586" duration="5457000" />
       <workItem from="1609177810389" duration="3199000" />
       <workItem from="1609271735527" duration="5796000" />
-      <workItem from="1609345478153" duration="1256000" />
+      <workItem from="1609345478153" duration="2420000" />
+      <workItem from="1609431757125" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -258,7 +259,49 @@
       <option name="project" value="LOCAL" />
       <updated>1609347433816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="signing in after registration">
+      <created>1609347827877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609347827877</updated>
+    </task>
+    <task id="LOCAL-00015" summary="authenticated state">
+      <created>1609433620571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609433620571</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Login Controller, login view, login route">
+      <created>1609434261566</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609434261566</updated>
+    </task>
+    <task id="LOCAL-00017" summary="logging in">
+      <created>1609436303356</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609436303356</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Logout - controller, route">
+      <created>1609438106269</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609438106269</updated>
+    </task>
+    <task id="LOCAL-00019" summary="home view &amp; route, logout user">
+      <created>1609438939439</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609438939439</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +337,12 @@
     <MESSAGE value="output old session data - register" />
     <MESSAGE value="store user" />
     <MESSAGE value="dashboard view, DashboardController &amp;  route" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard view, DashboardController &amp;  route" />
+    <MESSAGE value="signing in after registration" />
+    <MESSAGE value="authenticated state" />
+    <MESSAGE value="Login Controller, login view, login route" />
+    <MESSAGE value="logging in" />
+    <MESSAGE value="Logout - controller, route" />
+    <MESSAGE value="home view &amp; route, logout user" />
+    <option name="LAST_COMMIT_MESSAGE" value="home view &amp; route, logout user" />
   </component>
 </project>
