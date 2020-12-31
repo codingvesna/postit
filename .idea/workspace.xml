@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="dashboard view, DashboardController &amp;  route">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="signing in after registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,8 @@
       <workItem from="1608990797586" duration="5457000" />
       <workItem from="1609177810389" duration="3199000" />
       <workItem from="1609271735527" duration="5796000" />
-      <workItem from="1609345478153" duration="1256000" />
+      <workItem from="1609345478153" duration="2420000" />
+      <workItem from="1609431757125" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609347433816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="signing in after registration">
+      <created>1609347827877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609347827877</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +302,7 @@
     <MESSAGE value="output old session data - register" />
     <MESSAGE value="store user" />
     <MESSAGE value="dashboard view, DashboardController &amp;  route" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard view, DashboardController &amp;  route" />
+    <MESSAGE value="signing in after registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="signing in after registration" />
   </component>
 </project>
