@@ -16,6 +16,11 @@ use \App\Http\Controllers\Auth\RegisterController;
 |
 */
 
+Route::get('/', function (){
+    return view('home');
+})->name('home');
+
+
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/logout', [LogoutController::class, 'store'])->name('logout');
