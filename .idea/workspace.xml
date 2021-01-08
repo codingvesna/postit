@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="created Post model, factory &amp; migration">
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_08_155601_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_08_155601_create_posts_table.php" afterDir="false" />
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="added foreign key to posts table">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +173,7 @@
       <workItem from="1609606622088" duration="2217000" />
       <workItem from="1609870866274" duration="705000" />
       <workItem from="1609947329405" duration="1940000" />
-      <workItem from="1610120203999" duration="1696000" />
+      <workItem from="1610120203999" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -353,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610121505173</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added foreign key to posts table">
+      <created>1610121951940</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610121951940</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +387,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="readme update" />
     <MESSAGE value="posts route, app layout, deleted welcome view" />
     <MESSAGE value="styling the layout" />
     <MESSAGE value="add_username_to_users_table migration" />
@@ -401,6 +411,7 @@
     <MESSAGE value="PostController, route hooked" />
     <MESSAGE value="post form" />
     <MESSAGE value="created Post model, factory &amp; migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Post model, factory &amp; migration" />
+    <MESSAGE value="added foreign key to posts table" />
+    <option name="LAST_COMMIT_MESSAGE" value="added foreign key to posts table" />
   </component>
 </project>
