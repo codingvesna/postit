@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="post form">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="created Post model, factory &amp; migration">
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_08_155601_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_08_155601_create_posts_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,7 @@
       <workItem from="1609606622088" duration="2217000" />
       <workItem from="1609870866274" duration="705000" />
       <workItem from="1609947329405" duration="1940000" />
-      <workItem from="1610120203999" duration="1271000" />
+      <workItem from="1610120203999" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -349,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609950746418</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="created Post model, factory &amp; migration">
+      <created>1610121505173</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610121505173</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +376,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="laravel mix &amp; tailwind" />
     <MESSAGE value="readme update" />
     <MESSAGE value="posts route, app layout, deleted welcome view" />
     <MESSAGE value="styling the layout" />
@@ -397,6 +400,7 @@
     <MESSAGE value="remember user" />
     <MESSAGE value="PostController, route hooked" />
     <MESSAGE value="post form" />
-    <option name="LAST_COMMIT_MESSAGE" value="post form" />
+    <MESSAGE value="created Post model, factory &amp; migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Post model, factory &amp; migration" />
   </component>
 </project>
