@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     public function index(){
-        $posts = Post::get(); // Collection
+
+        $posts = Post::paginate(20); // get() - Collection
+        // dd($posts);
         return view('posts.index', [
             'posts' => $posts
         ]);

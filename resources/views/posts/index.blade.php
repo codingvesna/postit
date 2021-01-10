@@ -34,6 +34,8 @@ border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror"
                         <p class="mb-2">{{ $post->body }}</p>
                     </div>
                 @endforeach
+
+                {{ $posts->links() }}
             @else
                 <p>There are no posts. </p>
             @endif
