@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="count likes">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="storing likes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Like.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Like.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,7 @@
       <workItem from="1609870866274" duration="705000" />
       <workItem from="1609947329405" duration="1940000" />
       <workItem from="1610120203999" duration="3366000" />
-      <workItem from="1610272657660" duration="8829000" />
+      <workItem from="1610272657660" duration="9445000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -414,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610292684323</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="storing likes">
+      <created>1610296633526</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610296633526</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +469,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="register form errors handling" />
     <MESSAGE value="output old session data - register" />
     <MESSAGE value="store user" />
     <MESSAGE value="dashboard view, DashboardController &amp;  route" />
@@ -489,6 +493,7 @@
     <MESSAGE value="like/unlike form" />
     <MESSAGE value="Like Model, Post/Like Relationship" />
     <MESSAGE value="count likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="count likes" />
+    <MESSAGE value="storing likes" />
+    <option name="LAST_COMMIT_MESSAGE" value="storing likes" />
   </component>
 </project>
