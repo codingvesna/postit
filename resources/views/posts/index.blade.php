@@ -42,6 +42,8 @@ border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror"
                                 @csrf
                                 <button type="submit" class="text-blue-500">Unlike</button>
                             </form>
+
+                            <span>{{ $post->likes->count() }} {{Str::plural('like', $post->likes->count() )}}</span>
                         </div>
                     </div>
                 @endforeach
