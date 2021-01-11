@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="if liked show unlike btn, else show like btn">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="authorize delete post">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +133,9 @@
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mCHdetwD7SLNuJcoPVAOiMLMog" />
@@ -173,7 +177,8 @@
       <workItem from="1609870866274" duration="705000" />
       <workItem from="1609947329405" duration="1940000" />
       <workItem from="1610120203999" duration="3366000" />
-      <workItem from="1610272657660" duration="10754000" />
+      <workItem from="1610272657660" duration="11741000" />
+      <workItem from="1610365763163" duration="4403000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -434,7 +439,42 @@
       <option name="project" value="LOCAL" />
       <updated>1610297634076</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="unliking posts">
+      <created>1610298586479</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610298586479</updated>
+    </task>
+    <task id="LOCAL-00039" summary="eager loading">
+      <created>1610367500551</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610367500551</updated>
+    </task>
+    <task id="LOCAL-00040" summary="can like/unlike only if authenticated">
+      <created>1610367608751</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610367608751</updated>
+    </task>
+    <task id="LOCAL-00041" summary="deleting posts">
+      <created>1610368644374</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610368644374</updated>
+    </task>
+    <task id="LOCAL-00042" summary="authorize delete post">
+      <created>1610372955990</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1610372955990</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,11 +524,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="dashboard view, DashboardController &amp;  route" />
-    <MESSAGE value="signing in after registration" />
-    <MESSAGE value="authenticated state" />
-    <MESSAGE value="Login Controller, login view, login route" />
-    <MESSAGE value="logging in" />
     <MESSAGE value="Logout - controller, route" />
     <MESSAGE value="home view &amp; route, logout user" />
     <MESSAGE value="logout csrf, updated logout route" />
@@ -509,6 +544,11 @@
     <MESSAGE value="storing likes" />
     <MESSAGE value="likedBy check post" />
     <MESSAGE value="if liked show unlike btn, else show like btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="if liked show unlike btn, else show like btn" />
+    <MESSAGE value="unliking posts" />
+    <MESSAGE value="eager loading" />
+    <MESSAGE value="can like/unlike only if authenticated" />
+    <MESSAGE value="deleting posts" />
+    <MESSAGE value="authorize delete post" />
+    <option name="LAST_COMMIT_MESSAGE" value="authorize delete post" />
   </component>
 </project>
