@@ -33,7 +33,14 @@ border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror"
 
                         <p class="mb-2">{{ $post->body }}</p>
 
-                        <div class="flex items-center">
+                            <div>
+                                <form action="{{ route('posts.destroy', $post) }}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="text-blue-500">Delete</button>
+                                </form>
+                            </div>
+                                                    <div class="flex items-center">
                             @auth
                                 @if(!$post->likedBy(auth()->user()))
                                     <form action="{{route('posts.likes', $post)}}" method="post" class="mr-1">
