@@ -32,7 +32,8 @@ border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror"
                         <span class="text-gray-600 text-sm">{{$post->created_at->diffForHumans()}}</span>
 
                         <p class="mb-2">{{ $post->body }}</p>
-                        @if ($post->ownedBy(auth()->user()))
+
+                        @can('delete', $post)
                             <div>
                                 <form action="{{ route('posts.destroy', $post) }}" method="post">
                                     @csrf
@@ -40,7 +41,7 @@ border-2 w-full p-4 rounded-lg @error('body') border-red-500 @enderror"
                                     <button type="submit" class="text-blue-500">Delete</button>
                                 </form>
                             </div>
-                        @endif
+                        @endcan
                             <div class="flex items-center">
                             @auth
                                 @if(!$post->likedBy(auth()->user()))
