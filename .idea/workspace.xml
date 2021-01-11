@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="can like/unlike only if authenticated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="deleting posts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +172,7 @@
       <workItem from="1609947329405" duration="1940000" />
       <workItem from="1610120203999" duration="3366000" />
       <workItem from="1610272657660" duration="11741000" />
-      <workItem from="1610365763163" duration="1985000" />
+      <workItem from="1610365763163" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="laravel mix &amp; tailwind">
       <created>1608995679795</created>
@@ -459,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610367608751</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="deleting posts">
+      <created>1610368644374</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610368644374</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +511,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Login Controller, login view, login route" />
     <MESSAGE value="logging in" />
     <MESSAGE value="Logout - controller, route" />
     <MESSAGE value="home view &amp; route, logout user" />
@@ -534,6 +535,7 @@
     <MESSAGE value="unliking posts" />
     <MESSAGE value="eager loading" />
     <MESSAGE value="can like/unlike only if authenticated" />
-    <option name="LAST_COMMIT_MESSAGE" value="can like/unlike only if authenticated" />
+    <MESSAGE value="deleting posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleting posts" />
   </component>
 </project>
