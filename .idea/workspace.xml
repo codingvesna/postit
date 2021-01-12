@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="SoftDeletes likes">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostLikeController.php" afterDir="false" />
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="send email if a user hasn't already liked the post">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +181,7 @@
       <workItem from="1610120203999" duration="3366000" />
       <workItem from="1610272657660" duration="11741000" />
       <workItem from="1610365763163" duration="12204000" />
-      <workItem from="1610449854112" duration="8380000" />
-    </task>
-    <task id="LOCAL-00002" summary="readme update">
-      <created>1609095560171</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1609095560171</updated>
+      <workItem from="1610449854112" duration="9032000" />
     </task>
     <task id="LOCAL-00003" summary="posts route, app layout, deleted welcome view">
       <created>1609096076710</created>
@@ -525,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610465226192</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="send email if a user hasn't already liked the post">
+      <created>1610465809932</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1610465809932</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +576,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="created Post model, factory &amp; migration" />
     <MESSAGE value="added foreign key to posts table" />
     <MESSAGE value=" User/Post Relationship, creating a post" />
     <MESSAGE value="listing all posts" />
@@ -600,6 +600,7 @@
     <MESSAGE value="single post page" />
     <MESSAGE value="sending emails" />
     <MESSAGE value="SoftDeletes likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="SoftDeletes likes" />
+    <MESSAGE value="send email if a user hasn't already liked the post" />
+    <option name="LAST_COMMIT_MESSAGE" value="send email if a user hasn't already liked the post" />
   </component>
 </project>
