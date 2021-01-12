@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\PostLiked;
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PostLikeController extends Controller
 {
@@ -23,6 +25,8 @@ class PostLikeController extends Controller
             'user_id' => $request->user()->id,
         ]);
 
+        //$user = auth()->user();
+        Mail::to($post->user)->send(new PostLiked(auth()->user(), $post));
         return back();
     }
 
