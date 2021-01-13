@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="send email if a user hasn't already liked the post">
+    <list default="true" id="e0a84635-30db-4126-8299-dca7b15a3d6b" name="Default Changelist" comment="show post form if authenticated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,14 +183,9 @@
       <workItem from="1610120203999" duration="3366000" />
       <workItem from="1610272657660" duration="11741000" />
       <workItem from="1610365763163" duration="12204000" />
-      <workItem from="1610449854112" duration="9032000" />
-    </task>
-    <task id="LOCAL-00003" summary="posts route, app layout, deleted welcome view">
-      <created>1609096076710</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1609096076710</updated>
+      <workItem from="1610449854112" duration="9370000" />
+      <workItem from="1610466542592" duration="57000" />
+      <workItem from="1610542435321" duration="4612000" />
     </task>
     <task id="LOCAL-00004" summary="styling the layout">
       <created>1609096863035</created>
@@ -526,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610465809932</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="show post form if authenticated">
+      <created>1610466326694</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1610466326694</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +580,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="added foreign key to posts table" />
     <MESSAGE value=" User/Post Relationship, creating a post" />
     <MESSAGE value="listing all posts" />
     <MESSAGE value="pagination" />
@@ -601,6 +604,7 @@
     <MESSAGE value="sending emails" />
     <MESSAGE value="SoftDeletes likes" />
     <MESSAGE value="send email if a user hasn't already liked the post" />
-    <option name="LAST_COMMIT_MESSAGE" value="send email if a user hasn't already liked the post" />
+    <MESSAGE value="show post form if authenticated" />
+    <option name="LAST_COMMIT_MESSAGE" value="show post form if authenticated" />
   </component>
 </project>
